@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        margin: 20px;
+        padding: 20px;
+        background-color: #555;
+      }
+      ul,
+      li {
+        list-style: none;
+        margin: 0;
+      }
+      .banner1 {
+        width: 506px;
+        height: 492px;
+        overflow: hidden;
+      }
+      .banner1 img {
+        width: 100%;
+        transition: all 0.5s;
+      }
+      .banner1:hover img {
+        transform: scale(1.5);
+      }
+
+      .banner2 {
+        width: 506px;
+        height: 492px;
+        background: url(images/m1.png) center center;
+        margin-top: 20px;
+        transition: all 0.5s;
+        background-size: 100%;
+      }
+      .banner2:hover {
+        background-size: 120%;
+      }
+
+      .banner3 > ul > .bu1 {
+        width: 506px;
+        height: 333px;
+      }
+      .banner3 > ul > .bu1 > a {
+        display: block;
+        background: url(images/m4.png) no-repeat;
+        width: 100%;
+        height: 100%;
+        transition: all 0.5s;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="banner1"><img src="images/m10.png" alt="" /></div>
+      <div class="banner2"></div>
+      <div class="banner3">
+        <ul>
+          <li class="bu1"><a href="#"></a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
